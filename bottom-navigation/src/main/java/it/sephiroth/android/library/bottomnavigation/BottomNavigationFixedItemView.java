@@ -7,8 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.support.v4.view.ViewCompat;
-import android.view.animation.DecelerateInterpolator;
-import android.view.animation.Interpolator;
 
 import it.sephiroth.android.library.bottonnavigation.R;
 import proguard.annotation.Keep;
@@ -22,7 +20,6 @@ public class BottomNavigationFixedItemView extends BottomNavigationItemViewAbstr
     private static final String TAG = BottomNavigationFixedItemView.class.getSimpleName();
     private final int iconSize;
     private int centerY;
-    private final Interpolator interpolator = new DecelerateInterpolator();
     private float textWidth;
     private long animationDuration;
     private final int colorActive;
@@ -35,7 +32,7 @@ public class BottomNavigationFixedItemView extends BottomNavigationItemViewAbstr
     private final int paddingHorizontal;
     private final int textSizeInactive;
 
-    private static final float TEXT_SCALE_ACTIVE = 1.1666666667f;
+    private static final float TEXT_SCALE_ACTIVE = 1f;
     private float canvasTextScale;
     private float iconTranslation;
     private int textCenterX;
