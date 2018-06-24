@@ -7,6 +7,12 @@
 
 Lightweight Bottom Navigation library component inspired by the Google Material Design Guidelines at https://www.google.com/design/spec/components/bottom-navigation.html
 
+# DO NOT MERGE THIS.
+This is a patched version of Material BottomNavigation to use in our private projects.
+We removed the expanded behaviour when an icon is selected. In future we plan to write an API to do this programmatically and eventually merge in the main project.
+
+Until then, do not use this project :)
+
 This project is also inspired by https://github.com/roughike/BottomBar
 
 
