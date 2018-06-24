@@ -45,7 +45,7 @@ public class BottomNavigationFixedItemView extends BottomNavigationItemViewAbstr
         super(parent, expanded, menu);
 
         final Resources res = getResources();
-        this.paddingTopActive = res.getDimensionPixelSize(R.dimen.bbn_fixed_item_padding_top_active);
+        this.paddingTopActive = res.getDimensionPixelSize(R.dimen.bbn_fixed_item_padding_top_inactive);
         this.paddingTopInactive = res.getDimensionPixelSize(R.dimen.bbn_fixed_item_padding_top_inactive);
         this.paddingBottom = res.getDimensionPixelSize(R.dimen.bbn_fixed_item_padding_bottom);
         this.paddingHorizontal = res.getDimensionPixelSize(R.dimen.bbn_fixed_item_padding_horizontal);
