@@ -1,8 +1,5 @@
 package it.sephiroth.android.library.bottomnavigation;
 
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
-import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.graphics.Canvas;
